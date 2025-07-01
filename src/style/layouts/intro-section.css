@@ -1,0 +1,25 @@
+.intro-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 50px 0;
+  font-size: 30px;
+  line-height: 1.6;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  min-height: 450px;
+}
+.intro-section h1 {
+  color: #9487DF;
+}
+@media (min-width: 1024px) {
+  .intro-section {
+    padding: 80px 0;
+    font-size: 64px;
+    min-height: 958px;
+  }
+}

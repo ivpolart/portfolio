@@ -1,0 +1,81 @@
+.projects-section {
+  background: #00030F;
+  padding: 30px 0;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .projects-section {
+    padding: 60px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .projects-section {
+    padding: 90px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .projects-section .container {
+    max-width: 1140px;
+  }
+}
+.projects-section .title-block {
+  margin: 0 0 30px;
+}
+@media (min-width: 1024px) {
+  .projects-section .title-block {
+    margin: 0 0 90px;
+  }
+}
+.projects-section .projects-slider {
+  margin: 0 30px 30px;
+}
+@media (min-width: 1024px) {
+  .projects-section .projects-slider {
+    margin: 0 0 50px;
+  }
+}
+@media (min-width: 1440px) {
+  .projects-section .projects-slider {
+    margin: 0 0 100px;
+  }
+}
+.projects-section .slick-list {
+  margin: 0 -10px;
+  display: flex;
+}
+@media (min-width: 1024px) {
+  .projects-section .slick-list {
+    margin: 0 -20px;
+  }
+}
+@media (min-width: 1440px) {
+  .projects-section .slick-list {
+    margin: 0 -40px;
+  }
+}
+.projects-section .slick-track {
+  display: flex;
+}
+.projects-section .slick-slide {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+@media (min-width: 1024px) {
+  .projects-section .slick-slide {
+    margin: 0 20px;
+  }
+}
+@media (min-width: 1440px) {
+  .projects-section .slick-slide {
+    margin: 0 40px;
+  }
+}
+.projects-section .project-card {
+  margin: 30px 0;
+}
+.projects-section .btn-holder {
+  text-align: center;
+}
+/*# sourceMappingURL=projects-section.css.map */

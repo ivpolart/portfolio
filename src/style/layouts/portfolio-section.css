@@ -1,0 +1,59 @@
+.portfolio-section {
+  background: #00030F;
+  padding: 30px 0;
+}
+.portfolio-section .title-block {
+  margin: 0 0 90px;
+}
+.portfolio-section .projects-grid {
+  max-width: 330px;
+  margin: 0 auto;
+}
+.portfolio-section .projects-grid h1, .portfolio-section .projects-grid h2, .portfolio-section .projects-grid h3, .portfolio-section .projects-grid h4, .portfolio-section .projects-grid h5, .portfolio-section .projects-grid h6 {
+  font-size: 16px;
+  line-height: 1.22;
+  font-weight: 700;
+  color: #9487DF;
+}
+.portfolio-section .projects-grid .img-holder {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 11px;
+}
+@media (min-width: 480px) {
+  .portfolio-section .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .portfolio-section {
+    padding: 50px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .portfolio-section {
+    padding: 130px 0;
+  }
+  .portfolio-section .container {
+    max-width: 1150px;
+  }
+  .portfolio-section .projects-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-section .projects-grid h1, .portfolio-section .projects-grid h2, .portfolio-section .projects-grid h3, .portfolio-section .projects-grid h4, .portfolio-section .projects-grid h5, .portfolio-section .projects-grid h6 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 479px) {
+  .portfolio-section .projects-grid .project-card {
+    margin: 0 0 30px;
+  }
+}
