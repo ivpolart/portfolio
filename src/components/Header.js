@@ -3,9 +3,23 @@ import { NavLink } from "react-router-dom";
 import logo01 from "../images/logo-01.svg";
 
 const Header = () => {
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    setTheme(savedTheme);
+    document.body.classList.toggle("dark-theme", savedTheme === "dark");
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
+    document.body.classList.toggle("dark-theme", newTheme === "dark");
+  };
+
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Закрытие при клике вне меню
   useEffect(() => {
     const handleOutsideClick = (e) => {
       if (!e.target.closest("#nav-bar") && !e.target.closest(".nav-opener")) {
@@ -72,7 +86,11 @@ const Header = () => {
             </div>
           </nav>
 
-          <div className="theme-selector">{/* Тема */}</div>
+          <div className="switcher-wrapper">
+            <button className={`switcher-theme ${theme === "dark" ? "active" : ""}`} onClick={toggleTheme}>
+                <i className={theme === "light" ? "ico-day" : "ico-night"}></i>
+            </button>
+          </div>
         </div>
       </div>
     </header>

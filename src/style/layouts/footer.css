@@ -5,12 +5,12 @@
 }
 
 #footer {
-  background: #13182A;
+  background: var(--bg-color-01);
   padding: 30px 0;
   text-align: center;
   font-size: 16px;
   font-weight: 300;
-  color: #fff;
+  color: var(--text-color);
 }
 #footer .socials-list {
   display: flex;
@@ -22,13 +22,13 @@
   width: 51px;
   height: 51px;
   transition: color 0.2s ease-in-out;
-  background: #00030F;
+  background: var(--bg-color-03);
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   font-size: 20px;
-  color: #9487DF;
+  color: var(--purple);
   border-radius: 5px;
   position: relative;
   overflow: hidden;
@@ -38,14 +38,14 @@
   height: 100%;
   transition: transform 0.2s ease-in-out;
   content: "";
-  background: #9487DF;
+  background: var(--purple);
   position: absolute;
   top: 0;
   left: 0;
   transform: translateY(100%);
 }
 #footer .socials-list a:hover {
-  color: #00030F;
+  color: var(--bg-color-03);
 }
 #footer .socials-list a:hover:before {
   transform: translateY(0);
@@ -74,10 +74,10 @@
   content: "\e906";
   font-size: 22px;
   font-family: "icomoon";
-  color: #9487DF;
+  color: var(--purple);
 }
 #footer .phone-holder a:hover {
-  color: #9487DF;
+  color: var(--purple);
 }
 #footer .mail-holder a {
   transition: color 0.2s ease-in-out;
@@ -89,10 +89,10 @@
   content: "\e902";
   font-size: 22px;
   font-family: "icomoon";
-  color: #9487DF;
+  color: var(--purple);
 }
 #footer .mail-holder a:hover {
-  color: #9487DF;
+  color: var(--purple);
 }
 @media (min-width: 480px) {
   #footer .address-holder {

@@ -1,4 +1,5 @@
 import img01 from "../images/img-01.webp"
+import Button from '../components/Button';
 
 const AboutSection = () => {
     return (
@@ -18,7 +19,7 @@ const AboutSection = () => {
                         </p>
                     </div>
                     <div className="btn-holder">
-                        <a className="btn" href="/files/ivan-cv.pdf" download><span>Download CV</span></a>
+                        <Button href="/files/ivan-cv.pdf">Download CV</Button>
                     </div>
                     </div>
                     <div className="right-column">

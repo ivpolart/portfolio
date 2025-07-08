@@ -1,7 +1,7 @@
 .projects-section {
-  background: #00030F;
+  background: var(--bg-color-03);
   padding: 30px 0;
-  color: #fff;
+  color: var(--text-color);
 }
 @media (min-width: 768px) {
   .projects-section {
@@ -31,7 +31,7 @@
 }
 @media (min-width: 1024px) {
   .projects-section .projects-slider {
-    margin: 0 0 50px;
+    margin: 0 30px 50px;
   }
 }
 @media (min-width: 1440px) {

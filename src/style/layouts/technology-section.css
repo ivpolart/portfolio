@@ -1,5 +1,5 @@
 .technology-section {
-  background: #1C1C21;
+  background: var(--bg-color-02);
   padding: 30px 0;
 }
 .technology-section .title-block {
@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 .technology-section .card {
-  background: #00030F;
+  background: var(--bg-color-03);
   padding: 15px;
   display: flex;
   align-items: center;
@@ -24,7 +24,7 @@
   transition: box-shadow 0.2s ease-in-out;
 }
 .technology-section .card:hover {
-  box-shadow: 0 0 20px 5px rgba(148, 135, 223, 0.7) inset;
+  box-shadow: 0 0 20px 5px var(--card-shadow) inset;
 }
 .technology-section .card .img-holder {
   text-align: center;

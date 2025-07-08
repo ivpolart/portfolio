@@ -1,5 +1,5 @@
 .contact-section {
-  background: #00030F;
+  background: var(--bg-color-03);
   padding: 30px 0;
 }
 .contact-section .title-block {
@@ -11,7 +11,7 @@
 }
 .contact-section .columns-block .column {
   transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background: #1C1C21;
+  background: var(--bg-color-02);
   padding: 15px;
   display: flex;
   align-items: center;
@@ -19,17 +19,17 @@
   flex-direction: column;
   text-decoration: none;
   aspect-ratio: 1.35;
-  border: 1px solid #1C1C21;
+  border: 1px solid var(--bg-color-02);
   border-radius: 20px;
   font-size: 20px;
   line-height: 1.13;
-  color: #fff;
+  color: var(--text-color);
   white-space: nowrap;
   margin: 0 0 20px;
 }
 .contact-section .columns-block .column:hover {
-  border-color: #9487DF;
-  color: #9487DF;
+  border-color: var(--purple);
+  color: var(--purple);
 }
 .contact-section .columns-block .ico-holder {
   margin: 0 0 40px;

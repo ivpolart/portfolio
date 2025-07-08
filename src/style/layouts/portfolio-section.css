@@ -1,5 +1,5 @@
 .portfolio-section {
-  background: #00030F;
+  background: var(--bg-color-03);
   padding: 30px 0;
 }
 .portfolio-section .title-block {
@@ -13,7 +13,7 @@
   font-size: 16px;
   line-height: 1.22;
   font-weight: 700;
-  color: #9487DF;
+  color: var(--purple);
 }
 .portfolio-section .projects-grid .img-holder {
   border-radius: 10px;

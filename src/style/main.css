@@ -474,6 +474,24 @@ html {
   max-height: 1000000px;
 }
 
+:root {
+  --bg-color-01: #F5F5F7;
+  --bg-color-02: #DADADA;
+  --bg-color-03: #EEEEF0;
+  --purple: #6B60FE;
+  --text-color: #2D2D2D;
+  --card-shadow: rgba(107, 96, 254, 0.7);
+}
+
+.dark-theme {
+  --bg-color-01: #13182A;
+  --bg-color-02: #1C1C21;
+  --bg-color-03: #00030F;
+  --purple: #9487DF;
+  --text-color: #fff;
+  --card-shadow: rgba(148, 135, 223, 0.7);
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -490,8 +508,8 @@ img {
 }
 
 body {
-  background: #13182A;
-  color: #000;
+  background: var(--bg-color-01);
+  color: var(--text-color);
   font: 400 16px/1.5 "Montserrat", "Arial", "Helvetica", sans-serif;
   min-width: 320px;
 }
@@ -634,8 +652,8 @@ input[type=submit] {
 
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?x8baku");
-  src: url("../fonts/icomoon.eot?x8baku#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?x8baku") format("truetype"), url("../fonts/icomoon.woff?x8baku") format("woff"), url("../fonts/icomoon.svg?x8baku#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?ky7w52");
+  src: url("../fonts/icomoon.eot?ky7w52#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ky7w52") format("truetype"), url("../fonts/icomoon.woff?ky7w52") format("woff"), url("../fonts/icomoon.svg?ky7w52#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -654,8 +672,16 @@ input[type=submit] {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ico-arrow:before {
+.ico-day:before {
+  content: "\e908";
+}
+
+.ico-night:before {
   content: "\e900";
+}
+
+.ico-arrow:before {
+  content: "\e901";
 }
 
 .ico-email:before {
@@ -683,12 +709,12 @@ input[type=submit] {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #9487DF;
+  color: var(--purple);
 }
 
 mark {
   background: none;
-  color: #9487DF;
+  color: var(--purple);
   font-weight: 500;
 }
 
@@ -704,14 +730,14 @@ mark {
   padding: 20px;
   font-size: 20px;
   line-height: 1;
-  color: #9487DF;
+  color: var(--purple);
   font-weight: 500;
   letter-spacing: -0.1px;
   display: inline-block;
   min-width: 100px;
   text-align: center;
   text-decoration: none;
-  border: 1px solid #9487DF;
+  border: 1px solid var(--purple);
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -724,7 +750,7 @@ mark {
   width: 200%;
   height: 200%;
   content: "";
-  background: #9487DF;
+  background: var(--purple);
   position: absolute;
   top: var(--y, 50%);
   left: var(--x, 50%);
@@ -734,7 +760,7 @@ mark {
   z-index: 0;
 }
 .btn:hover {
-  color: #0E1431;
+  color: var(--bg-color-03);
 }
 .btn:hover:before {
   transform: translate(-50%, -50%) scale(2);
@@ -762,7 +788,7 @@ mark {
   height: 2px;
   transition: width 0.2s ease-in-out, color 0.2s ease-in-out;
   content: "";
-  background: #9487DF;
+  background: var(--purple);
   display: block;
   position: relative;
 }
@@ -773,8 +799,8 @@ mark {
   content: "";
   display: block;
   position: relative;
-  border-right: 2px solid #9487DF;
-  border-bottom: 2px solid #9487DF;
+  border-right: 2px solid var(--purple);
+  border-bottom: 2px solid var(--purple);
   transform: rotate(-45deg);
 }
 .slick-arrow.slick-prev {
@@ -792,14 +818,14 @@ mark {
   margin-left: -12px;
 }
 .slick-arrow:hover {
-  border-color: #9487DF;
+  border-color: var(--purple);
 }
 .slick-arrow:hover:before {
-  background: #9487DF;
+  background: var(--purple);
   width: 0;
 }
 .slick-arrow:hover:after {
-  border-color: #9487DF;
+  border-color: var(--purple);
   margin: 0;
 }
 .slick-arrow:hover.slick-prev:after {
@@ -820,9 +846,9 @@ mark {
 
 .project-card {
   transition: box-shadow 0.2s ease-in-out;
-  background: #1C1C21;
+  background: var(--bg-color-02);
   padding: 15px;
-  color: #fff;
+  color: var(--text-color);
   border-radius: 20px;
   font-size: 12px;
   line-height: 1.33;
@@ -833,10 +859,10 @@ mark {
   box-shadow: 0 4px 4px rgba(148, 135, 223, 0);
 }
 .project-card:hover {
-  box-shadow: 0 0 30px rgba(148, 135, 223, 0.7);
+  box-shadow: 0 0 30px var(--card-shadow);
 }
 .project-card:hover .ico-github {
-  color: #9487DF;
+  color: var(--purple);
 }
 .project-card h6 {
   font-size: 18px;
@@ -949,8 +975,8 @@ mark {
   .slick-arrow:after {
     width: 20px;
     height: 20px;
-    border-right: 2px solid #9487DF;
-    border-bottom: 2px solid #9487DF;
+    border-right: 2px solid var(--purple);
+    border-bottom: 2px solid var(--purple);
   }
   .slick-arrow.slick-prev {
     left: -60px;

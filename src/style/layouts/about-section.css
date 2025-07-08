@@ -1,12 +1,13 @@
 .about-section {
-  background: #1C1C21;
+  background: var(--bg-color-02);
   padding: 30px 0 0;
   font-size: 16px;
   line-height: 1.22;
   font-weight: 300;
   letter-spacing: 0.1px;
   text-align: center;
-  color: #fff;
+  color: var(--text-color);
+  overflow: hidden;
 }
 .about-section .title-block {
   margin: 0 0 30px;

@@ -5,11 +5,11 @@
 }
 
 .skills-section {
-  background: #00030F;
+  background: var(--bg-color-03);
   padding: 30px 0;
   font-size: 16px;
   line-height: 1.17;
-  color: #fff;
+  color: var(--text-color);
 }
 .skills-section .title-block {
   margin: 0 0 50px;
@@ -18,12 +18,12 @@
   margin-bottom: 10px;
 }
 .skills-section .open-block .opener {
-  background: #1C1C21;
+  background: var(--bg-color-02);
   padding: 15px;
   font-size: 20px;
   line-height: 1.08;
   font-weight: 700;
-  color: #9487DF;
+  color: var(--purple);
   letter-spacing: 0.5px;
   text-transform: uppercase;
   width: 100%;
@@ -37,20 +37,20 @@
   width: 24px;
   height: 24px;
   transition: transform 0.2s ease-in-out;
-  content: "\e900";
+  content: "\e901";
   font-size: 24px;
   line-height: 1;
   font-family: "icomoon";
-  color: #9487DF;
+  color: var(--purple);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .skills-section .open-block .slide {
   transition: border-color 0.2s ease-in-out;
-  background: #1C1C21;
+  background: var(--bg-color-02);
   padding: 15px;
-  border-top: 1px solid #1C1C21;
+  border-top: 1px solid var(--bg-color-02);
 }
 .skills-section .open-block .slide ul li {
   display: flex;
@@ -64,7 +64,7 @@
   width: 4px;
   height: 4px;
   content: "";
-  background: #fff;
+  background: var(--text-color);
   display: block;
   border-radius: 100%;
   min-width: 4px;
@@ -74,7 +74,7 @@
   transform: rotate(-180deg);
 }
 .skills-section .open-block.active .slide {
-  border-color: #D4D4D4;
+  border-color: var(--bg-color-03);
 }
 @media (min-width: 480px) {
   .skills-section .open-block .opener {

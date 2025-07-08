@@ -1,5 +1,6 @@
 import Slider from "react-slick";
 import ProjectCard from "./ProjectCard";
+import Button from '../components/Button';
 import { projects, fallbackImage } from "../data/projects";
 
 const sliderSettings = {
@@ -46,9 +47,7 @@ const ProjectsSection = () => {
         </Slider>
 
         <div className="btn-holder">
-          <a className="btn" href="https://github.com/ivpolart?tab=repositories" target="_blank" rel="noopener noreferrer">
-            <span>More Projects</span>
-          </a>
+          <Button href="/portfolio" isInternal={true}>More Projects</Button>
         </div>
       </div>
     </section>
