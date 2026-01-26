@@ -21,7 +21,7 @@ import Footer from "./components/Footer"
 function App() {
     return (
       <div className="App">
-        <HashRouter basename="/portfolio">
+        <HashRouter>
           <Header />
           <main id="main">
           <Routes>
