@@ -9,7 +9,7 @@ import "./style/layouts/skills-section.css"
 import "./style/layouts/technology-section.css"
 import "./style/layouts/contact-section.css"
 
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter, Routes, Route} from "react-router-dom";
 
 import Header from "./components/Header"
 import Home from "./pages/Home"
@@ -21,7 +21,7 @@ import Footer from "./components/Footer"
 function App() {
     return (
       <div className="App">
-        <BrowserRouter basename="/portfolio">
+        <HashRouter basename="/portfolio">
           <Header />
           <main id="main">
           <Routes>
@@ -32,7 +32,7 @@ function App() {
           </Routes>
           </main>
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
 }
