@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e307b1ef.css",
-    "main.js": "/portfolio/static/js/main.67ff32da.js",
+    "main.css": "/portfolio/static/css/main.fbc4e44c.css",
+    "main.js": "/portfolio/static/js/main.01e154a3.js",
     "static/js/453.b2e9990e.chunk.js": "/portfolio/static/js/453.b2e9990e.chunk.js",
+    "static/media/pp-games.png": "/portfolio/static/media/pp-games.d659cdd362d48d01a4fc.png",
     "static/media/pp-sheba.png": "/portfolio/static/media/pp-sheba.9fa6b25db1918b95f633.png",
     "static/media/pp-positivus.png": "/portfolio/static/media/pp-positivus.b742705ffa90c84b9b81.png",
     "static/media/bg-01.jpg": "/portfolio/static/media/bg-01.83b4a2b618aa6b7060da.jpg",
     "static/media/img-01.webp": "/portfolio/static/media/img-01.08fe7a01c41eb81e4acf.webp",
-    "static/media/icomoon.svg?ky7w52": "/portfolio/static/media/icomoon.081061f0abbd5a34df93.svg",
+    "static/media/icomoon.svg?ky7w52": "/portfolio/static/media/icomoon.0881577039cf7a3512cd.svg",
     "static/media/logo-mysql.svg": "/portfolio/static/media/logo-mysql.8ce4357c948acac3bccb6edea3e0cfcc.svg",
     "static/media/logo-jquery.svg": "/portfolio/static/media/logo-jquery.b2c98dc390f6be7d7241da0b9354978c.svg",
     "static/media/logo-react.svg": "/portfolio/static/media/logo-react.3c0d5c999a66a2623f8d2b6ab087e9c4.svg",
@@ -30,19 +31,19 @@
     "static/media/logo-git.svg": "/portfolio/static/media/logo-git.a056a9393705d28fc02911cb6349dc36.svg",
     "index.html": "/portfolio/index.html",
     "static/media/logo-figma.svg": "/portfolio/static/media/logo-figma.c901691a279006352ab117fdf993a121.svg",
-    "static/media/logo-npm.svg": "/portfolio/static/media/logo-npm.4927e686b5582002c03deee77459b148.svg",
+    "static/media/logo-npm.svg": "/portfolio/static/media/logo-npm.492553f363695fc456b589838bf3d98c.svg",
     "static/media/logo-sublime.svg": "/portfolio/static/media/logo-sublime.6984b42d8b12c6e7f594dbf7bc91deb7.svg",
     "static/media/ico-gmail.svg": "/portfolio/static/media/ico-gmail.240d96f438630cf4ab9916169ddadc6c.svg",
     "static/media/ico-telegram.svg": "/portfolio/static/media/ico-telegram.68a39c5b8a742ccb1fdb7c27b4da9a34.svg",
     "static/media/ico-phone.svg": "/portfolio/static/media/ico-phone.67e75ed062924e9cee10f46e281bd2f5.svg",
     "static/media/logo-html.svg": "/portfolio/static/media/logo-html.ee22073e7fa0e732a09dac9d529d283a.svg",
     "static/media/logo-css.svg": "/portfolio/static/media/logo-css.422803ecd5e5f1524b61e610697ef9de.svg",
-    "main.e307b1ef.css.map": "/portfolio/static/css/main.e307b1ef.css.map",
-    "main.67ff32da.js.map": "/portfolio/static/js/main.67ff32da.js.map",
+    "main.fbc4e44c.css.map": "/portfolio/static/css/main.fbc4e44c.css.map",
+    "main.01e154a3.js.map": "/portfolio/static/js/main.01e154a3.js.map",
     "453.b2e9990e.chunk.js.map": "/portfolio/static/js/453.b2e9990e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e307b1ef.css",
-    "static/js/main.67ff32da.js"
+    "static/css/main.fbc4e44c.css",
+    "static/js/main.01e154a3.js"
   ]
 }
