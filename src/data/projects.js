@@ -16,14 +16,14 @@ export const projects = [
   {
     id: 2,
     title: "Landing Page",
-    githubUrl: "https://github.com/ivpolart/LP_Positivus",
+    githubUrl: "https://ivpolart.github.io/LP_Positivus/",
     techStack: ["HTML", "CSS", "JS"],
     previewImage: positivusImg,
   },
   {
     id: 3,
     title: "Landing Page",
-    githubUrl: "https://github.com/ivpolart/LP_Sheba",
+    githubUrl: "https://ivpolart.github.io/LP_Sheba/",
     techStack: ["HTML", "CSS", "JS"],
     previewImage: shebaImg,
   },
