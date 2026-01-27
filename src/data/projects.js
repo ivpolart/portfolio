@@ -2,6 +2,7 @@ import fallbackImage from "../images/img-02.webp";
 import positivusImg from "../images/pp-positivus.png";
 import shebaImg from "../images/pp-sheba.png";
 import gamesImg from "../images/pp-games.png";
+import todolistImg from "../images/pp-pp-todolist.png";
 
 export { fallbackImage };
 
@@ -29,10 +30,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Portfolio Website",
-    githubUrl: "https://github.com/ivpolart/portfolio",
-    techStack: ["React", "Styled Components"],
-    previewImage: fallbackImage,
+    title: "To do list",
+    githubUrl: "https://ivpolart.github.io/To-do-List/",
+    techStack: [HTML, CSS, JS],
+    previewImage: todolistImg,
   },
   {
     id: 5,
